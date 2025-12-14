@@ -27,3 +27,18 @@
 <view class="index-link">
   <navigator url="imgshow/imgshow" class="item-link">让小程序显示图片</navigator>
 </view>
+<view class="event-list">
+  <navigator url="/pages/home/imgshow/imgshow" class="event-link">
+    <view class="event-img">
+      <image mode="widthFix" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/like-fill.png"></image>
+    </view>
+    <view class="event-content">
+      <view class="event-title">零基础学会小程序开发</view>
+      <view class="event-desc">通过两天集中学习，你能循序渐进地开发出一些具有实际应用场景的小程序。</view>
+      <view class="event-box">
+        <view class="event-address">郑州市中原区</view>
+        <view class="event-time">2025年12月14日</view>
+      </view>
+    </view>
+  </navigator>
+</view>

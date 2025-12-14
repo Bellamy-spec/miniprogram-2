@@ -10,8 +10,15 @@
 .imglist .imgitem{
   width: 90%;
   margin: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 8px 30px rgba(53, 178, 225, 0.26);
 }
 .imglist .imgfull{
   width: 95%;
   height: 100px;
+}
+.imglist .circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
 }
