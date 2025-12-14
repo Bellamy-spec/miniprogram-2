@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<text>pages/home/home.wxml</text>
+<view id="wxmlinfo">
+  <view class="content">
+    <view class="title">WXML 模板</view>
+    <view class="desc">从事过网页编程的人知道，网页编程采用的是HTML+CSS+JavaScript这样的组合。其中HTML用来描述当前这个页面的结构，CSS用来描述页面的样子，JavaScript通常用来处理这个页面和用户的交互</view>
+  </view>
+</view>
+<view id="studyweapp">
+  <view class="content">
+    <view class="header">
+      <view class="title">技术学习说明</view>
+      <view class="desc">技术与以往所接触的一些知识有很大的不同，例如，英语非常强调词汇量，需要你多说多背；数学需要你记住公式，反复练习。在教学方式上也有很大的不同，以前都是有专门的老师手把手教你，还有同学交流。那要学好技术，应该遵循什么样的学习方法呢？</view>
+    </view>
+    <view class="lists">
+      <view class="item">
+        <view class="item-title">查阅文档而非死记知识点</view>
+        <view class="item-desc">在高中一学期一门课通常只有一本教材，老师会反复讲解知识点，强化你的记忆；而技术中很小的一个分支，内容就有几千页甚至更多，死记知识点显然不合适。学习技术要像查字典一样来查阅技术文档，只需要掌握基本的语法和用法，在编程的时候随时查阅即可，就像你不需要背诵上万的单词也能知道它的含义和用法一样，所以技术文档是学习技术最为重要的参考资料。</view>
+      </view>
+      <view class="item">
+        <view class="item-title">实战而非不动手的看书</view>
+        <view class="item-desc">技术是最强调结果的技能，看了再多书，如果不知道技术成品是怎么写出来的，都是枉然。很多朋友有“收集癖”，下载了很多电子资源，收藏了很多高赞的技术文章，但是却没有动手去消化、去理解，把时间和经历都浪费了。不动手在开发者工具里去写代码、不动手配置开发环境、缺乏实战的经验，这些都是阻碍学好技术的坏习惯。</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="index-link">
+  <navigator url="imgshow/imgshow" class="item-link">让小程序显示图片</navigator>
+</view>

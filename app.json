@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/imgshow/imgshow",
+    "pages/list/list",
+    "pages/partner/partner",
+    "pages/more/more"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "云开发技术训练营"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#13227A",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "image/like.png",
+        "selectedIconPath": "image/like-fill.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "iconPath": "image/partner.png",
+        "selectedIconPath": "image/partner-fill.png",
+        "text": "伙伴"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "image/more.png",
+        "selectedIconPath": "image/more-fill.png",
+        "text": "更多"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 40000,
+    "downloadFile": 40000
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "debug": true
+}
