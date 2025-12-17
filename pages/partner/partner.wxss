@@ -1,1 +1,4 @@
 /* pages/partner/partner.wxss */
+.hw__h3{
+  color: #e2520e;
+}

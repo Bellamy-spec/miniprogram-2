@@ -1,2 +1,19 @@
 <!--pages/list/list.wxml-->
 <text>pages/list/list.wxml</text>
+<view class="page__bd" id="news-list">
+  <view class="weui-panel__bd">
+    <navigator url="/pages/more/more" open-type="switchTab" class="news-item" hover-class="weui-cell_active">
+      <view class="news-img">
+        <image mode="widthFix" class="" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/0cc6119423c1316563e5d68f6fff170.jpg" />
+      </view>
+      <view class="news-desc">
+        <view class="weui-media-box__title">小程序可以在PC端微信打开了</view>
+        <view class="weui-media-box__desc">微信开始测试【PC端支持打开小程序】的新能力，用户终于不用在电脑上收到小程序时望手机兴叹。</view>
+        <view class="weui-media-box__info">
+          <view class="weui-media-box__info__meta">呼伦贝尔</view>
+          <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">8月6日</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

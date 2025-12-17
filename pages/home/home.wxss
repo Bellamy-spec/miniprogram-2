@@ -73,3 +73,17 @@
   font-size: 12px;
   padding-right: 15px;
 }
+.list-item{
+  background-color: #82c2f7;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #bdd2f8;
+  flex: 1;
+  display: flex;
+  align-items: center;  /*垂直居中*/
+  justify-content: center;  /*水平居中*/
+}
+.flex-box{
+  display: flex;
+}
+.placeholder{margin:5px;padding:0 10px;text-align:center;background-color:var(--weui-BG-1);height:2.3em;line-height:2.3em;color:var(--weui-FG-1)}

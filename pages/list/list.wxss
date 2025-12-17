@@ -1,1 +1,12 @@
 /* pages/list/list.wxss */
+#news-list .news-item{
+  margin: 15rpx;
+  padding: 15rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+#news-list .news-img image{
+    width: 100%;
+}
+#news-list .news-desc{
+  width: 100%;
+}

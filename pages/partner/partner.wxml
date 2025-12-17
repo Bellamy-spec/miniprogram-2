@@ -1,2 +1,24 @@
 <!--pages/partner/partner.wxml-->
 <text>pages/partner/partner.wxml</text>
+<view class="page__bd">
+  <view class="weui-article">
+    <view class="weui-article__h1">HackWork技术工坊</view>
+    <view class="weui-article__section">
+      <view class="weui-article__p">HackWork技术工坊是技术普及的活动，致力于以有趣的形式让参与者学到有用的技术。任务实战、系统指导以及社区学习能有效提高技术小白学习技术的热情以及效率。</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h3">任务式实战</view>
+        <view class="weui-article__p">每节课都会有非常明确的学习任务，会引导你循序渐进地通过实战来掌握各个知识点。只有动手做过的技术才属于自己</view>
+        <view class="weui-article__p">
+          <image class="weui-article__img" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/0cc6119423c1316563e5d68f6fff170.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+        <view class="weui-article__h3">系统指导</view>
+        <view class="weui-article__p">针对所有学习问题都会耐心解答，会提供详细的学习文档，对大家的学习进行系统指导。</view>
+        <view class="weui-article__p">
+          <image class="weui-article__img" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/3dbbc04c80bddf1f5b0b8b62aa92286.jpg" mode="aspectFit" style="height: 180px;" />
+        </view>
+        <view class="weui-article__h3 hw__h3">社区学习</view>
+        <view class="weui-article__p">参与活动即加入了技术社区，会长期提供教学指导，不必担心学不会，也不用担心没有一起学习的伙伴。</view>
+      </view>
+    </view>
+  </view>
+</view>
