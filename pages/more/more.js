@@ -5,7 +5,43 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    id: 233,
+    itemurl: "/pages/home/imgshow/imgshow",
+    itemclass: "event-item",
+    imagesrc: "cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214115.jpg",
+    imagemode: "widthFix",
+    imagewidth: "100%",
+    love1: 520,
+    love2: "520",
+    forever1: 1314,
+    forever2: "1314",
+    newstitle: [
+      "瑞幸咖啡：有望在三季度达到门店运营的盈亏平衡点",
+      "腾讯：广告高库存量还是会持续到下一年",
+      "上汽集团：云计算数据中心落户郑州，总投资20亿元",
+      "京东：月收入超2万元快递小哥数量同比增长163%",
+      "腾讯：《和平精英》日活跃用户已超五千万",
+    ],
+    movies: [
+      {
+        name: "肖申克的救赎",
+        englishname: "The Shawshank Redemption",
+        country: "美国",
+        year: 1994,
+        img: "cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214124.jpg",
+        desc: "有的人羽翼是如此光辉，即使世界上最黑暗的牢狱，也无法长久地将他围困！",
+        actor: [
+          {
+            name: "蒂姆·罗宾斯",
+            role: "安迪·杜佛兰",
+          },
+          {
+            name: "摩根·弗里曼",
+            role: "艾莉丝·波伊德·瑞德",
+          },
+        ],
+      },
+    ],
   },
 
   /**

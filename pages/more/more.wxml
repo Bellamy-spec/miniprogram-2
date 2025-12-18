@@ -1,2 +1,15 @@
 <!--pages/more/more.wxml-->
 <text>pages/more/more.wxml</text>
+<navigator id="item-{{ id }}" class="{{ itemclass }}" url="{{ itemurl }}">
+  <image style="width: {{ imagewidth }}" mode="{{ imagemode }}" src="{{ imagesrc }}"></image>
+</navigator>
+<view>两个数字Number相加：{{ love1 + forever1 }}</view>
+<view>两个字符串String相加：{{ love2 + forever2 }}</view>
+<view>互联网快讯</view>
+<view>{{ newstitle[2] }}</view>
+<image mode="widthFix" src="{{ movie.img }}" style="width: 300rpx;"></image>
+<view>电影名：{{ movie.name }}</view>
+<view>英文名：{{ movie.englishname }}</view>
+<view>国家：{{ movie.country }}</view>
+<view>发行年份：{{ movie.year }}</view>
+<view>简述：{{ movie.desc }}</view>
