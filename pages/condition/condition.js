@@ -1,23 +1,13 @@
-// pages/home/home.js
+// pages/condition.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    username: "郭雨健",
-    imgUrls: [
-      'cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214128.jpg',
-      'cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214140.jpg',
-      'cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214141.jpg',
-      'cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214157.jpg',
-    ],
-    interval: 5000,
-    duration: 500,
-    indicatorDots: true,
-    indicatorColor: "#ffffff",
-    activecolor: "#2971f6",
-    autoplay: true,
+    male: 22,
+    female: 9,
+    show: 1,
   },
 
   /**
