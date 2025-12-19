@@ -5,7 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    title: "首页",
     username: "郭雨健",
     imgUrls: [
       'cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214128.jpg',

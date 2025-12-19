@@ -1,6 +1,6 @@
 <import src="/pages/common/foot.wxml" />
 <import src="/pages/common/head.wxml" />
-<template is="head" />
+<template is="head" data="{{ title: '首页' }}" />
 <view class="home-top">
   <view class="home-swiper">
     <swiper indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{ duration }}" indicator-color="{{ indicatorColor }}" indicator-active-color="{{ activecolor }}" id="swp">

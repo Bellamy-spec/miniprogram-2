@@ -1,6 +1,6 @@
 <!--pages/more/more.wxml-->
 <import src="/pages/common/head.wxml" />
-<template is="head" />
+<template is="head" data="{{ title: '查看更多', desc: '对数据绑定和页面渲染的深度练习' }}" />
 <text>pages/more/more.wxml</text>
 <navigator id="item-{{ id }}" class="{{ itemclass }}" url="{{ itemurl }}">
   <image style="width: {{ imagewidth }}" mode="{{ imagemode }}" src="{{ imagesrc }}"></image>
