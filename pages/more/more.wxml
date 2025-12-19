@@ -1,4 +1,6 @@
 <!--pages/more/more.wxml-->
+<import src="/pages/common/head.wxml" />
+<template is="head" />
 <text>pages/more/more.wxml</text>
 <navigator id="item-{{ id }}" class="{{ itemclass }}" url="{{ itemurl }}">
   <image style="width: {{ imagewidth }}" mode="{{ imagemode }}" src="{{ imagesrc }}"></image>

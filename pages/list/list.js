@@ -60,7 +60,21 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage() {
-
+  onShareAppMessage: function(res){
+    if(res.from == 'button'){
+      // 来自页面内转发按钮
+      console.log(res.target)
+    }
+    return{
+      title: '云开发技术训练营',
+      path: "pages/home/home",
+      imageUrl: "cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214139.jpg",
+      success: function(res){
+        // 转发成功
+      },
+      fail: function(res){
+        // 转发失败
+      },
+    }
   }
 })

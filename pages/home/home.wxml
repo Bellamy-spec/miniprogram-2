@@ -1,3 +1,6 @@
+<import src="/pages/common/foot.wxml" />
+<import src="/pages/common/head.wxml" />
+<template is="head" />
 <view class="home-top">
   <view class="home-swiper">
     <swiper indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{ duration }}" indicator-color="{{ indicatorColor }}" indicator-active-color="{{ activecolor }}" id="swp">
@@ -9,6 +12,11 @@
     </swiper>
   </view>
 </view>
+<!-- <audio src="{{ musicinfo.src }}" poster="{{ musicinfo.poster }}" name="{{ musicinfo.name }}" author="{{ musicinfo.author }}" controls></audio> -->
+<video id="daxueVideo" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/4b108e8771cd0fcb37c2d478b477d95c.mp4" loop>
+  <view class="covertext">阿尔山：悠闲的牛群</view>
+  <image class="coverimg" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/like-fill.png" />
+</video>
 <view id="wxmlinfo">
   <view class="content">
     <view class="title">WXML 模板</view>
@@ -62,3 +70,5 @@
   <view class="weui-flex__item"><view class="placeholder">weui</view></view>
 </view>
 <view>{{ username }}，您已登录，欢迎！</view>
+<button open-type="contact">联系客服</button>
+<template is="foot" />

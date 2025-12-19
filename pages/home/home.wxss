@@ -90,3 +90,22 @@
 #swp{
   height: 300px;
 }
+.covertext{
+  width: 500rpx;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 20rpx;
+  left: 10rpx;
+}
+.coverimg{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+}
+/* page{
+  background-color: #1772cb;
+  background-image: url(http://zz106gz.cn/media/miniprogram/like-fill.png);
+} */
