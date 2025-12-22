@@ -5,7 +5,8 @@
     "pages/list/list",
     "pages/partner/partner",
     "pages/more/more",
-    "pages/condition/condition"
+    "pages/condition/condition",
+    "pages/main/main"
   ],
   "window": {
     "navigationBarTextStyle": "white",
