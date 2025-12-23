@@ -91,3 +91,15 @@ console.log(Math.sin(Math.PI));
 console.log(Math.cos(Math.PI));
 console.log(Math.log10(10));
 console.log(Math.log(4) / Math.log(2));
+
+let now = new Date();   // 返回当日的日期和时间
+console.log(now);
+console.log(now.getFullYear());   // 返回Date对象的年份
+console.log(now.getMonth());    // 返回Date对象的月份（0~11）
+console.log(now.getDate());   // 返回Date对象是一个月中的第几天（1~31）
+console.log(now.getDay());    // 返回Date对象一周中的第几天（0~6）
+console.log(now.getHours());    // 返回Date对象的小时数（0~23）
+console.log(now.getMinutes());    // 返回Date对象的分钟数（0~59）
+console.log(now.getSeconds());    // 返回Date对象的秒数（0~59）
+console.log(now.getMilliseconds());   // 返回Date对象的毫秒数（0~999）
+console.log(now.getTime());   // 返回1970年1月1日至今的毫秒数
