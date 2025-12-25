@@ -103,3 +103,27 @@ console.log(now.getMinutes());    // 返回Date对象的分钟数（0~59）
 console.log(now.getSeconds());    // 返回Date对象的秒数（0~59）
 console.log(now.getMilliseconds());   // 返回Date对象的毫秒数（0~999）
 console.log(now.getTime());   // 返回1970年1月1日至今的毫秒数
+
+// wx.getNetworkType({
+//   success(res){
+//       console.log(res);
+//   }
+// });
+
+const deviceInfo = wx.getDeviceInfo();
+// console.log(deviceInfo);
+console.log(deviceInfo.brand);    // 设备品牌
+console.log(deviceInfo.model);    // 设备型号
+console.log(deviceInfo.system);   // 操作系统及版本
+console.log(deviceInfo.platform);   // 客户端平台
+console.log(deviceInfo.memorySize);   // 设备内存
+
+// wx.navigateTo({
+//   url: 'https://mp.weixin.qq.com/s/u6T7UL50pAX1_RMPMIP1oA'
+// })
+
+wx.showToast({
+  title: '品牌：'.concat(deviceInfo.brand),
+  icon: 'success',
+  duration: 5000
+})
