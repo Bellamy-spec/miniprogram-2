@@ -127,3 +127,16 @@ wx.showToast({
   icon: 'success',
   duration: 5000
 })
+
+wx.setNavigationBarTitle({
+  title: '控制台更新的标题',
+})
+
+wx.chooseMedia({
+  success(res){
+    console.log(res.tempFiles);
+    console.log(res.tempFiles[0]);
+    console.log(res.tempFiles[0].tempFilePath);
+    console.log(res.tempFiles[0].size);
+  }
+})
