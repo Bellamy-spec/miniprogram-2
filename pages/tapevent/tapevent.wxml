@@ -1,0 +1,11 @@
+<!--pages/tapevent/tapevent.wxml-->
+<button type="primary" bind:tap="scrollToPosition" id="scrollButton">滚动到页面指定位置</button>
+<view class="pagetop" style="background-color: #333; width: 100%; height: 400px;"></view>
+<button type="primary" bind:tap="scrollToTop">滚动到页面顶部（返回顶部）</button>
+<view id="pageblock" style="background-color: #333; width: 100%; height: 400px;"></view>
+<button type="primary" bind:tap="toastTap">单击获取你的设备品牌</button>
+<button type="primary" bind:tap="modalTap" style="margin-top: 10px;">显示模态对话框</button>
+<button type="primary" bind:tap="vibrateLong" style="margin-top: 10px;">长振动</button>
+<button type="primary" bind:tap="vibrateShort" style="margin-top: 10px;">短振动</button>
+<button type="default" bind:tap="actionSheetTap" style="margin-top: 10px;" id="bottom_ele">弹出操作菜单</button>
+<view style="background-color: #333; width: 100%; height: 50px;"></view>

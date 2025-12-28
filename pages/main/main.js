@@ -132,11 +132,19 @@ wx.setNavigationBarTitle({
   title: '控制台更新的标题',
 })
 
-wx.chooseMedia({
-  success(res){
-    console.log(res.tempFiles);
-    console.log(res.tempFiles[0]);
-    console.log(res.tempFiles[0].tempFilePath);
-    console.log(res.tempFiles[0].size);
+// wx.chooseMedia({
+//   success(res){
+//     console.log(res.tempFiles);
+//     console.log(res.tempFiles[0]);
+//     console.log(res.tempFiles[0].tempFilePath);
+//     console.log(res.tempFiles[0].size);
+//   }
+// })
+
+wx.authorize({
+  scope: 'scope.writePhotosAlbum',
+  success(){
+    // 用户已经授权小程序，后续调用接口不会弹窗询问
+    console.log('已授权写入相册')
   }
 })
