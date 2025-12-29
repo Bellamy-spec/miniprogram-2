@@ -94,5 +94,23 @@ Page({
         // 转发失败
       },
     }
-  }
+  },
+
+  navigateTo(){
+    wx.navigateTo({
+      url: '/pages/tapevent/tapevent',
+    })
+  },
+
+  switchTab(){
+    wx.switchTab({
+      url: '/pages/list/list',
+    })
+  },
+
+  redirectTo(){
+    wx.redirectTo({
+      url: '/pages/tapevent/tapevent',
+    })
+  },
 })

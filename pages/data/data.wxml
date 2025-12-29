@@ -1,0 +1,23 @@
+<!--pages/data/data.wxml-->
+<view>"云开发技术训练营"第5个字符：{{ charat }}</view>
+<view>两个字符串连接后的结果：{{ concat }}</view>
+<view>Cloud Base字母大写：{{ uppercase }}</view>
+<view>b的绝对值：{{ abs }}</view>
+<view>x的y次幂：{{ pow }}</view>
+<view>返回a是正还是负：{{ sign }}</view>
+<view>now对象：{{ now }}</view>
+<view>{{ fullyear }}年</view>
+<view>{{ date }}日</view>
+<view>星期{{ day }}</view>
+<view>{{ hours }}时</view>
+<view>{{ minutes }}分</view>
+<view>{{ seconds }}秒</view>
+<view>1970年1月1日至今的毫秒数：{{ time }}</view>
+<view style="background-color: {{ bgcolor }}; width: 100%; height: 300rpx;"></view>
+<button bind:tap="redTap">让背景变红</button>
+<button bind:tap="yellowTap">让背景变黄</button>
+<video id="daxueVideo" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/4b108e8771cd0fcb37c2d478b477d95c.mp4" autoplay loop muted="{{ muted }}" initial-time="0" controls event-model="bubble"></video>
+<button bind:tap="changeMuted">静音和取消静音</button>
+<text>{{ text }}</text>
+<button bind:tap="addLine">新增一行</button>
+<button bind:tap="removeLine">删掉最后一行</button>

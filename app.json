@@ -1,12 +1,13 @@
 {
   "pages": [
-    "pages/tapevent/tapevent",
+    "pages/data/data",
     "pages/home/home",
     "pages/home/imgshow/imgshow",
     "pages/list/list",
     "pages/partner/partner",
     "pages/more/more",
     "pages/condition/condition",
+    "pages/tapevent/tapevent",
     "pages/main/main"
   ],
   "window": {
