@@ -4,8 +4,5 @@
   "navigationBarTextStyle": "white",
   "navigationBarTitleText": "小程序页面",
   "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "light",
-  "window": {
-    "disableScroll": true
-  }
+  "backgroundTextStyle": "light"
 }
