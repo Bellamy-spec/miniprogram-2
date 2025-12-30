@@ -1,0 +1,21 @@
+<!--pages/lifecycle/lifecycle.wxml-->
+<text>pages/lifecycle/lifecycle.wxml</text>
+<navigator id="detailshow" url="./../home/detail/detail?id=lesson&uid=tcb&key=tap&ENV=weapp&frompage=lifecycle" class="item-link">单击链接查看控制台</navigator>
+<view class="page__bd">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd" wx:for="{{ movies }}" wx:for-item="movie" wx:key="*item">
+      <navigator url="./../home/detail/detail?id={{ index }}&name={{ movie.name }}&img={{ movie.img }}&desc={{ movie.desc }}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" mode="widthFix" mode="widthFix" src="{{ movie.img }}"></image>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">{{ movie.name }}</view>
+          <view class="weui-media-box__desc">{{ movie.desc }}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+<view id="viewclick" style="background-color: red; padding: 20px;" data-sku="100000177760" data-spu="100000177756" data-pid="100000177756" data-toggle="Apple iPhone XR" data-jd-dolor="Red" data-productBrand="Apple" bind:tap="clickView">
+  <image id="imageclick" src="cloud://cloud1-7glpq1pj616a8565.636c-cloud1-7glpq1pj616a8565-1312576773/微信图片_20251218214128.jpg" mode="widthFix" style="width: 200rpx;" bind:tap="clickImage" />
+</view>

@@ -21,3 +21,16 @@
 <text>{{ text }}</text>
 <button bind:tap="addLine">新增一行</button>
 <button bind:tap="removeLine">删掉最后一行</button>
+<view class="weui-navbar">
+  <block wx:for="{{ tabs }}" wx:key="index">
+    <view id="{{ index }}" class="weui-navbar__item {{ activeIndex == index ? 'weui-bar__item_on' : '' }}" bind:tap="tabClick">
+      <view class="weui-navbar__title">{{ item }}</view>
+    </view>
+  </block>
+</view>
+<view class="weui-tab__panel">
+  <view hidden="{{ activeIndex != 0 }}">北京</view>
+  <view hidden="{{ activeIndex != 1 }}">上海</view>
+  <view hidden="{{ activeIndex != 2 }}">广州</view>
+  <view hidden="{{ activeIndex != 3 }}">深圳</view>
+</view>

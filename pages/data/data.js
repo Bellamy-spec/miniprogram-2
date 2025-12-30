@@ -29,6 +29,8 @@ Page({
     bgcolor: "#000000",
     muted: true,
     text: initData,
+    tabs: ["北京", "上海", "广州", "深圳"],
+    activeIndex: 0,
   },
 
   /**
@@ -119,5 +121,12 @@ Page({
         text: initData + '\n' + extraLine.join('\n')
       })
     }
+  },
+
+  tabClick:function(e){
+    console.log(e);
+    this.setData({
+      activeIndex: e.currentTarget.id
+    })
   },
 })

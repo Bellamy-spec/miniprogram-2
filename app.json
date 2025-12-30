@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/lifecycle/lifecycle",
     "pages/data/data",
     "pages/home/home",
     "pages/home/imgshow/imgshow",
+    "pages/home/detail/detail",
     "pages/list/list",
     "pages/partner/partner",
     "pages/more/more",

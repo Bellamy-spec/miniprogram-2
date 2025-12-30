@@ -1,0 +1,7 @@
+/* pages/lifecycle/lifecycle.wxss */
+.weui-media-box__hd_in-appmsg{
+  height: auto;
+}
+view[data-pid]{
+  margin: 30px;
+}
