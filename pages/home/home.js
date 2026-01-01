@@ -1,4 +1,8 @@
 // pages/home/home.js
+const base = require('../../utils/base.js')
+console.log("base里的user对象", base.user)
+console.log("调用base里的函数", base.sayHello("郭雨健"))
+
 Page({
 
   /**

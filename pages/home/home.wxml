@@ -3,7 +3,7 @@
 <template is="head" data="{{ title: '首页' }}" />
 <view class="home-top">
   <view class="home-swiper">
-    <navigator url="/pages/main/main">
+    <navigator url="/pages/data/data">
       <swiper indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{ duration }}" indicator-color="{{ indicatorColor }}" indicator-active-color="{{ activecolor }}" id="swp">
         <block wx:for="{{ imgUrls }}" wx:key="*this">
           <swiper-item>
