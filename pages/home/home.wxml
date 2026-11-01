@@ -1,6 +1,7 @@
 <import src="/pages/common/foot.wxml" />
 <import src="/pages/common/head.wxml" />
 <template is="head" data="{{ title: '首页' }}" />
+<!-- <image src="/image/home.png"></image> -->
 <view class="home-top">
   <view class="home-swiper">
     <navigator url="/pages/data/data">
